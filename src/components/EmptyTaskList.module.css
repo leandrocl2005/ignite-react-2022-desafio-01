@@ -1,0 +1,23 @@
+.tasksBody {
+    border-top: 1px solid var(--gray-400);
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    color: var(--gray-300);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+.tasksBody p + p {
+    font-weight: 400;
+}
+
+.tasksBody img {
+    margin-bottom: 1rem;
+}
